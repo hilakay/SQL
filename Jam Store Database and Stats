@@ -1,0 +1,41 @@
+CREATE TABLE jock_jams 
+(id INTEGER PRIMARY KEY, name TEXT, flavor TEXT, price INTEGER, inventory INTEGER);
+
+INSERT INTO jock_jams VALUES 
+(1, "figure it out", "fig", 6, 10);
+INSERT INTO jock_jams VALUES
+(2, "berried alive", "mixed berry", 5, 12);
+INSERT INTO jock_jams VALUES
+(3, "apricaught", "apricot", 6, 10);
+INSERT INTO jock_jams VALUES
+(4, "bright and cherry", "cherry", 5, 12);
+INSERT INTO jock_jams VALUES
+(5, "get pumped", "pumpkin", 5, 10);
+INSERT INTO jock_jams VALUES
+(6, "lemon squeezey", "lemon", 4, 13);
+INSERT INTO jock_jams VALUES
+(7, "she's a lemon", "meyer lemon", 5, 10);
+INSERT INTO jock_jams VALUES
+(8, "me thyme", "thyme", 6, 10);
+INSERT INTO jock_jams VALUES
+(9, "pandan dan", "pandan", 7, 11);
+INSERT INTO jock_jams VALUES
+(10, "just peachy", "peach", 6, 12);
+INSERT INTO jock_jams VALUES
+(11, "bananarama", "banana", 4, 11);
+INSERT INTO jock_jams VALUES
+(12, "perfect pear", "pear", 5, 10);
+INSERT INTO jock_jams VALUES
+(13, "krannert-berry", "cranberry", 6, 12);
+INSERT INTO jock_jams VALUES
+(14, "an apple a day", "apple", 5, 13);
+INSERT INTO jock_jams VALUES
+(15, "got the blues", "blueberry", 5, 10)
+;
+
+SELECT * FROM jock_jams;
+
+SELECT * FROM jock_jams WHERE inventory >=12
+
+ORDER BY price asc;
+
